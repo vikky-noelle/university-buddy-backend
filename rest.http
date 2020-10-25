@@ -1,0 +1,28 @@
+GET http://localhost:3000
+
+### error route
+GET http://localhost:3000/abc
+
+###Login Route
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "Username": "kshitijwadhawan199989@gmail.com",
+    "Password": "12345678"
+}
+
+###Register Route
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "Username": "kshitijwadhawan199989@gmail.com",
+    "Password": "12345678"
+}
+
+###Refresh token Route
+POST http://localhost:3000/refresh-token
+
+###Logout Route
+DELETE  http://localhost:3000/logout
